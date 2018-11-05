@@ -2,7 +2,10 @@ var ViewModel = function() {
     var self = this;
     
     //#region Public Observables
-    self.isVisible(false);
+    self.isVisible = ko.observable(false);
+    self.status = ko.pureComputed(function() {
+        return self.isVisible() ? 'visible' : 'hidden';
+    });
     //#endregion
     
     //#region Private variables
@@ -16,7 +19,7 @@ var ViewModel = function() {
     //#endregion
     
     //#region Private functions
-    var strLength(str) {
+    var strLength = function (str) {
       return str.length;
     };
     //#endregion
