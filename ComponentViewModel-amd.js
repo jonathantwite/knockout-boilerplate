@@ -43,3 +43,6 @@ define(['knockout', 'text!./component-template.html'], function (ko, htmlTemplat
         self.isVisible(internalValue === strLength('start'));
         //#endregion
     }
+    
+    return { viewModel: ViewModel, template: htmlTemplate };
+});
