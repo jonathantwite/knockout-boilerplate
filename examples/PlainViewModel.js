@@ -20,7 +20,7 @@ var ViewModel = function() {
     
     //#region Private functions
     var strLength = function (str) {
-      return str.length;
+        return str.length;
     };
     //#endregion
     
