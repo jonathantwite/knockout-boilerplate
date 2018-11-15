@@ -6,6 +6,7 @@ Boilerplate code for knockout applications
 # View Models
 * [Plain View Model](https://github.com/jonathantwite/knockout-boilerplate/blob/master/src/PlainViewModel.js) ([Example](https://github.com/jonathantwite/knockout-boilerplate/blob/master/examples/PlainViewModel.js))
 * [AMD View Model](https://github.com/jonathantwite/knockout-boilerplate/blob/master/src/PlainViewModel-amd.js) ([Example](https://github.com/jonathantwite/knockout-boilerplate/blob/master/examples/PlainViewModel-amd.js))
+* [UMD View Model](https://github.com/jonathantwite/knockout-boilerplate/blob/master/src/PlainViewModel-umd.js) ([Example](https://github.com/jonathantwite/knockout-boilerplate/blob/master/examples/PlainViewModel-umd.js))
 
 # Components
 * [AMD Component View Model](https://github.com/jonathantwite/knockout-boilerplate/blob/master/src/ComponentViewModel-amd.js) ([Example](https://github.com/jonathantwite/knockout-boilerplate/blob/master/examples/ComponentViewModel-amd.js))
