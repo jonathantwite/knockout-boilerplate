@@ -32,4 +32,6 @@ define(['knockout'], function(ko) {
         
         //#endregion
     }
+    
+    return ViewModel;
 });
