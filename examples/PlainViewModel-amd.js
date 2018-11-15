@@ -41,4 +41,6 @@ define(['knockout'], function(ko) {
         self.isVisible(internalValue === strLength('start'));
         //#endregion
     }
+    
+    return ViewModel;
 });
