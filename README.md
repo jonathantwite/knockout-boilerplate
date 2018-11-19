@@ -14,3 +14,4 @@ Boilerplate code for knockout applications
 # Component Tester
 A small html page to test knockout components.  The component is displayed, along with the results of any Jasmine unit tests
 * [AMD Component Tester](https://github.com/jonathantwite/knockout-boilerplate/tree/master/src/component-tester-amd/)([Example](https://github.com/jonathantwite/knockout-boilerplate/tree/master/examples/component-tester-amd/))
+* [AMD Component Tester with Bootstrap](https://github.com/jonathantwite/knockout-boilerplate/tree/master/src/component-tester-amd-bootstrap/)([Example](https://github.com/jonathantwite/knockout-boilerplate/tree/master/examples/component-tester-amd-bootstrap/))
