@@ -22,7 +22,7 @@ define(['knockout', 'text!./component-template.html'], function (ko, htmlTemplat
         //#endregion
         
         //#region Private functions
-        var strLength(str) {
+        function strLength(str) {
             return str.length;
         };
         //#endregion
