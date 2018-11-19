@@ -10,3 +10,7 @@ Boilerplate code for knockout applications
 
 # Components
 * [AMD Component View Model](https://github.com/jonathantwite/knockout-boilerplate/blob/master/src/ComponentViewModel-amd.js) ([Example](https://github.com/jonathantwite/knockout-boilerplate/blob/master/examples/ComponentViewModel-amd.js))
+
+# Component Tester
+A small html page to test knockout components.  The component is displayed, along with the results of any Jasmine unit tests
+* [AMD Component Tester](https://github.com/jonathantwite/knockout-boilerplate/tree/master/src/component-tester-amd/)([Example](https://github.com/jonathantwite/knockout-boilerplate/tree/master/examples/component-tester-amd/))
