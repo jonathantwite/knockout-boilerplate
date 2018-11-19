@@ -26,9 +26,9 @@ define(['knockout'], function(ko) {
         //#endregion
         
         //#region Subscriptions
-        self.isVisibleSubscription = self.isVisible.subscribe(newValue) {
+        self.isVisibleSubscription = self.isVisible.subscribe(function(newValue) {
             internalValue = newValue ? 12 : 42;
-        };
+        });
         //#endregion
         
         //#region Disposal
